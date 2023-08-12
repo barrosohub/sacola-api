@@ -1,5 +1,4 @@
-```
-# 🛍️ Sacola API - Ifood Dev Week
+# 🛍️ Sacola API - iFood Dev Week
 
 A RESTful API developed with Spring Boot to manage shopping bags in restaurants.
 
@@ -13,19 +12,19 @@ A RESTful API developed with Spring Boot to manage shopping bags in restaurants.
 ### 🔧 Installation
 
 1. Clone the repository:
-\```bash
-git clone [link_do_repositório]
-\```
+```bash
+git clone https://github.com/barrosohub/sacola-api.git
+```
 
 2. Navigate to the project directory and run:
-\```bash
+```bash
 gradle build
-\```
+```
 
 3. Start the server:
-\```bash
+```bash
 gradle bootRun
-\```
+```
 
 ## 📦 Project Structure
 
@@ -44,14 +43,14 @@ gradle bootRun
 ## 📌 Notes
 
 - H2 in-memory database is used. Access H2 console at:
-\```
+```
 http://localhost:8080/h2-console
-\```
+```
 - Ensure you have the Lombok plugin installed in your IDE.
 
 ## 📊 Class Diagram (Mermaid)
 
-\```mermaid
+```mermaid
 classDiagram
     Endereco <-- Restaurante
     Restaurante --> Produto
@@ -80,7 +79,6 @@ classDiagram
     class Item {
         +int quantidade
     }
-\```
+```
 
 Enjoy! 🎉
-```
