@@ -59,3 +59,4 @@ INSERT INTO sacola (id, forma_pagamento, fechada, valor_total, cliente_id) VALUE
                                                                                (13, 0, false, 0.0, 3),
                                                                                (14, 1, false, 0.0, 4),
                                                                                (15, 0, false, 0.0, 5);
+
